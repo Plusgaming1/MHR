@@ -1,0 +1,2382 @@
+Made by github.com/Plusgaming1
+
+local MegaHackRoblox = Instance.new("ScreenGui")
+local Features = Instance.new("Folder")
+local FpsCounter = Instance.new("TextLabel")
+local Tracers = Instance.new("Folder")
+local Health = Instance.new("Folder")
+local Modules = Instance.new("Folder")
+local Utilities = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local Buttons = Instance.new("Frame")
+local FPS = Instance.new("Frame")
+local Toggle = Instance.new("Frame")
+local TextButton = Instance.new("TextButton")
+local UIGridLayout = Instance.new("UIGridLayout")
+local Close = Instance.new("TextButton")
+local Customization = Instance.new("Frame")
+local TextLabel_2 = Instance.new("TextLabel")
+local Buttons_2 = Instance.new("Frame")
+local Customization_2 = Instance.new("Frame")
+local Toggle_2 = Instance.new("Frame")
+local TextButton_2 = Instance.new("TextButton")
+local UIGridLayout_2 = Instance.new("UIGridLayout")
+local Close_2 = Instance.new("TextButton")
+local Player = Instance.new("Frame")
+local TextLabel_3 = Instance.new("TextLabel")
+local Buttons_3 = Instance.new("Frame")
+local UIGridLayout_3 = Instance.new("UIGridLayout")
+local Speed = Instance.new("TextButton")
+local Jump = Instance.new("TextButton")
+local Noclip = Instance.new("Frame")
+local Toggle_3 = Instance.new("Frame")
+local TextButton_3 = Instance.new("TextButton")
+local Close_3 = Instance.new("TextButton")
+local Visual = Instance.new("Frame")
+local TextLabel_4 = Instance.new("TextLabel")
+local Buttons_4 = Instance.new("Frame")
+local UIGridLayout_4 = Instance.new("UIGridLayout")
+local ESP = Instance.new("Frame")
+local Toggle_4 = Instance.new("Frame")
+local TextButton_4 = Instance.new("TextButton")
+local Tracers_2 = Instance.new("Frame")
+local Toggle_5 = Instance.new("Frame")
+local TextButton_5 = Instance.new("TextButton")
+local Health_2 = Instance.new("Frame")
+local Toggle_6 = Instance.new("Frame")
+local TextButton_6 = Instance.new("TextButton")
+local TracerScreen = Instance.new("Frame")
+local Toggle_7 = Instance.new("Frame")
+local TextButton_7 = Instance.new("TextButton")
+local Close_4 = Instance.new("TextButton")
+local Description = Instance.new("Frame")
+local TextLabel_5 = Instance.new("TextLabel")
+local Description_2 = Instance.new("Frame")
+local TextLabel_6 = Instance.new("TextLabel")
+local Close_5 = Instance.new("TextButton")
+local Settings = Instance.new("Frame")
+local FpsCounterSettings = Instance.new("Frame")
+local Scale = Instance.new("TextButton")
+local Position = Instance.new("TextLabel")
+local TextButton_8 = Instance.new("TextButton")
+local Frame = Instance.new("Frame")
+local Frame_2 = Instance.new("ScrollingFrame")
+local UIGridLayout_5 = Instance.new("UIGridLayout")
+local BottomLeft = Instance.new("TextButton")
+local Left = Instance.new("TextButton")
+local TopLeft = Instance.new("TextButton")
+local Top = Instance.new("TextButton")
+local TopRight = Instance.new("TextButton")
+local Right = Instance.new("TextButton")
+local BottomRight = Instance.new("TextButton")
+local Bottom = Instance.new("TextButton")
+local FPSType = Instance.new("Frame")
+local Toggle_8 = Instance.new("Frame")
+local TextButton_9 = Instance.new("TextButton")
+local UIGridLayout_6 = Instance.new("UIGridLayout")
+local FPS_2 = Instance.new("Frame")
+local Toggle_9 = Instance.new("Frame")
+local TextButton_10 = Instance.new("TextButton")
+local Color = Instance.new("Frame")
+local TextLabel_7 = Instance.new("TextLabel")
+local TextBox = Instance.new("TextBox")
+local RGB = Instance.new("Frame")
+local Toggle_10 = Instance.new("Frame")
+local TextButton_11 = Instance.new("TextButton")
+local Customization_3 = Instance.new("Frame")
+local HSVH = Instance.new("TextButton")
+local UIGridLayout_7 = Instance.new("UIGridLayout")
+local HSVS = Instance.new("TextButton")
+local HSVV = Instance.new("TextButton")
+local RGB_2 = Instance.new("Frame")
+local Toggle_11 = Instance.new("Frame")
+local TextButton_12 = Instance.new("TextButton")
+local RGBSpeed = Instance.new("TextButton")
+local Key = Instance.new("Frame")
+local TextButton_13 = Instance.new("TextButton")
+local Toggle_12 = Instance.new("Frame")
+local TextLabel_8 = Instance.new("TextLabel")
+
+--Properties:
+
+MegaHackRoblox.Name = "MegaHackRoblox"
+MegaHackRoblox.Parent = game.CoreGui
+MegaHackRoblox.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+MegaHackRoblox.DisplayOrder = 999999999
+MegaHackRoblox.ResetOnSpawn = false
+
+Features.Name = "Features"
+Features.Parent = MegaHackRoblox
+
+FpsCounter.Name = "FpsCounter"
+FpsCounter.Parent = Features
+FpsCounter.AnchorPoint = Vector2.new(0, 1)
+FpsCounter.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FpsCounter.BackgroundTransparency = 1.000
+FpsCounter.Position = UDim2.new(0, 0, 1, 0)
+FpsCounter.Size = UDim2.new(0.150000006, 0, 0.100000001, 0)
+FpsCounter.Visible = false
+FpsCounter.Font = Enum.Font.SourceSans
+FpsCounter.Text = "FPS: 0"
+FpsCounter.TextColor3 = Color3.fromRGB(255, 255, 255)
+FpsCounter.TextScaled = true
+FpsCounter.TextSize = 14.000
+FpsCounter.TextWrapped = true
+
+Tracers.Name = "Tracers"
+Tracers.Parent = Features
+
+Health.Name = "Health"
+Health.Parent = Features
+
+Modules.Name = "Modules"
+Modules.Parent = MegaHackRoblox
+
+Utilities.Name = "Utilities"
+Utilities.Parent = Modules
+Utilities.BackgroundColor3 = Color3.fromRGB(255, 108, 108)
+Utilities.BorderSizePixel = 0
+Utilities.Position = UDim2.new(0.00999999978, 0, 0.0250000004, 0)
+Utilities.Size = UDim2.new(0.150000006, 0, 0.0250000004, 0)
+Utilities.Visible = false
+
+TextLabel.Parent = Utilities
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Size = UDim2.new(0.899999976, 0, 1, 0)
+TextLabel.Font = Enum.Font.SourceSansSemibold
+TextLabel.Text = "Essentials"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+Buttons.Name = "Buttons"
+Buttons.Parent = Utilities
+Buttons.BackgroundColor3 = Color3.fromRGB(51, 51, 51)
+Buttons.BorderSizePixel = 0
+Buttons.Position = UDim2.new(0, 0, 1, 0)
+Buttons.Size = UDim2.new(1, 0, 20, 0)
+
+FPS.Name = "FPS"
+FPS.Parent = Buttons
+FPS.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FPS.BackgroundTransparency = 1.000
+FPS.BorderSizePixel = 0
+FPS.Size = UDim2.new(1, 0, 0.0500000007, 0)
+
+Toggle.Name = "Toggle"
+Toggle.Parent = FPS
+Toggle.AnchorPoint = Vector2.new(0, 1)
+Toggle.BackgroundColor3 = Color3.fromRGB(198, 0, 198)
+Toggle.BorderSizePixel = 0
+Toggle.Position = UDim2.new(0, 0, 1, 0)
+Toggle.Size = UDim2.new(0.0199999996, 0, 1, 0)
+Toggle.Visible = false
+
+TextButton.Parent = FPS
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 1.000
+TextButton.Position = UDim2.new(0.0199999996, 0, 0, 0)
+TextButton.Size = UDim2.new(0.980000019, 0, 1, 0)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "FPS Counter"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+UIGridLayout.Parent = Buttons
+UIGridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout.CellPadding = UDim2.new(0, 0, 0, 0)
+UIGridLayout.CellSize = UDim2.new(1, 0, 0.0500000007, 0)
+
+Close.Name = "Close"
+Close.Parent = Utilities
+Close.Active = false
+Close.AnchorPoint = Vector2.new(1, 0.5)
+Close.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Close.BorderSizePixel = 0
+Close.Position = UDim2.new(0.975000024, 0, 0.5, 0)
+Close.Rotation = 180.000
+Close.Selectable = false
+Close.Size = UDim2.new(0.0649999976, 0, 0.75, 0)
+Close.Font = Enum.Font.SourceSansSemibold
+Close.Text = "V"
+Close.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close.TextScaled = true
+Close.TextSize = 14.000
+Close.TextWrapped = true
+
+Customization.Name = "Customization"
+Customization.Parent = Modules
+Customization.BackgroundColor3 = Color3.fromRGB(255, 108, 108)
+Customization.BorderSizePixel = 0
+Customization.Position = UDim2.new(0.170000002, 0, 0.0250000004, 0)
+Customization.Size = UDim2.new(0.150000006, 0, 0.0250000004, 0)
+Customization.Visible = false
+
+TextLabel_2.Parent = Customization
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Size = UDim2.new(0.899999976, 0, 1, 0)
+TextLabel_2.Font = Enum.Font.SourceSansSemibold
+TextLabel_2.Text = "Customization"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+Buttons_2.Name = "Buttons"
+Buttons_2.Parent = Customization
+Buttons_2.BackgroundColor3 = Color3.fromRGB(51, 51, 51)
+Buttons_2.BorderSizePixel = 0
+Buttons_2.Position = UDim2.new(0, 0, 1, 0)
+Buttons_2.Size = UDim2.new(1, 0, 20, 0)
+
+Customization_2.Name = "Customization"
+Customization_2.Parent = Buttons_2
+Customization_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Customization_2.BackgroundTransparency = 1.000
+Customization_2.BorderSizePixel = 0
+Customization_2.Size = UDim2.new(1, 0, 0.0500000007, 0)
+
+Toggle_2.Name = "Toggle"
+Toggle_2.Parent = Customization_2
+Toggle_2.AnchorPoint = Vector2.new(0, 1)
+Toggle_2.BackgroundColor3 = Color3.fromRGB(198, 0, 198)
+Toggle_2.BorderSizePixel = 0
+Toggle_2.Position = UDim2.new(0, 0, 1, 0)
+Toggle_2.Size = UDim2.new(0.0199999996, 0, 1, 0)
+Toggle_2.Visible = false
+
+TextButton_2.Parent = Customization_2
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.BackgroundTransparency = 1.000
+TextButton_2.Position = UDim2.new(0.0199999996, 0, 0, 0)
+TextButton_2.Size = UDim2.new(0.980000019, 0, 1, 0)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "Customize Gui"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 14.000
+TextButton_2.TextWrapped = true
+
+UIGridLayout_2.Parent = Buttons_2
+UIGridLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout_2.CellPadding = UDim2.new(0, 0, 0, 0)
+UIGridLayout_2.CellSize = UDim2.new(1, 0, 0.0500000007, 0)
+
+Close_2.Name = "Close"
+Close_2.Parent = Customization
+Close_2.Active = false
+Close_2.AnchorPoint = Vector2.new(1, 0.5)
+Close_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Close_2.BorderSizePixel = 0
+Close_2.Position = UDim2.new(0.975000024, 0, 0.5, 0)
+Close_2.Rotation = 180.000
+Close_2.Selectable = false
+Close_2.Size = UDim2.new(0.0649999976, 0, 0.75, 0)
+Close_2.Font = Enum.Font.SourceSansSemibold
+Close_2.Text = "V"
+Close_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close_2.TextScaled = true
+Close_2.TextSize = 14.000
+Close_2.TextWrapped = true
+
+Player.Name = "Player"
+Player.Parent = Modules
+Player.BackgroundColor3 = Color3.fromRGB(255, 108, 108)
+Player.BorderSizePixel = 0
+Player.Position = UDim2.new(0.330000013, 0, 0.0250000004, 0)
+Player.Size = UDim2.new(0.150000006, 0, 0.0250000004, 0)
+Player.Visible = false
+
+TextLabel_3.Parent = Player
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Size = UDim2.new(0.899999976, 0, 1, 0)
+TextLabel_3.Font = Enum.Font.SourceSansSemibold
+TextLabel_3.Text = "Player"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+Buttons_3.Name = "Buttons"
+Buttons_3.Parent = Player
+Buttons_3.BackgroundColor3 = Color3.fromRGB(51, 51, 51)
+Buttons_3.BorderSizePixel = 0
+Buttons_3.Position = UDim2.new(0, 0, 1, 0)
+Buttons_3.Size = UDim2.new(1, 0, 20, 0)
+
+UIGridLayout_3.Parent = Buttons_3
+UIGridLayout_3.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout_3.CellPadding = UDim2.new(0, 0, 0, 0)
+UIGridLayout_3.CellSize = UDim2.new(1, 0, 0.0500000007, 0)
+
+Speed.Name = "Speed"
+Speed.Parent = Buttons_3
+Speed.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Speed.BackgroundTransparency = 1.000
+Speed.BorderSizePixel = 0
+Speed.Size = UDim2.new(1, 0, 0.0500000007, 0)
+Speed.Font = Enum.Font.SourceSans
+Speed.Text = "WalkSpeed: 16"
+Speed.TextColor3 = Color3.fromRGB(255, 255, 255)
+Speed.TextScaled = true
+Speed.TextSize = 14.000
+Speed.TextWrapped = true
+
+Jump.Name = "Jump"
+Jump.Parent = Buttons_3
+Jump.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Jump.BackgroundTransparency = 1.000
+Jump.BorderSizePixel = 0
+Jump.Size = UDim2.new(1, 0, 0.0500000007, 0)
+Jump.Font = Enum.Font.SourceSans
+Jump.Text = "JumpPower: 50"
+Jump.TextColor3 = Color3.fromRGB(255, 255, 255)
+Jump.TextScaled = true
+Jump.TextSize = 14.000
+Jump.TextWrapped = true
+
+Noclip.Name = "Noclip"
+Noclip.Parent = Buttons_3
+Noclip.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Noclip.BackgroundTransparency = 1.000
+Noclip.BorderSizePixel = 0
+Noclip.Size = UDim2.new(1, 0, 0.0500000007, 0)
+
+Toggle_3.Name = "Toggle"
+Toggle_3.Parent = Noclip
+Toggle_3.AnchorPoint = Vector2.new(0, 1)
+Toggle_3.BackgroundColor3 = Color3.fromRGB(198, 0, 198)
+Toggle_3.BorderSizePixel = 0
+Toggle_3.Position = UDim2.new(0, 0, 1, 0)
+Toggle_3.Size = UDim2.new(0.0199999996, 0, 1, 0)
+Toggle_3.Visible = false
+
+TextButton_3.Parent = Noclip
+TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.BackgroundTransparency = 1.000
+TextButton_3.Position = UDim2.new(0.0199999996, 0, 0, 0)
+TextButton_3.Size = UDim2.new(0.980000019, 0, 1, 0)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = "Noclip"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextScaled = true
+TextButton_3.TextSize = 14.000
+TextButton_3.TextWrapped = true
+
+Close_3.Name = "Close"
+Close_3.Parent = Player
+Close_3.Active = false
+Close_3.AnchorPoint = Vector2.new(1, 0.5)
+Close_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Close_3.BorderSizePixel = 0
+Close_3.Position = UDim2.new(0.975000024, 0, 0.5, 0)
+Close_3.Rotation = 180.000
+Close_3.Selectable = false
+Close_3.Size = UDim2.new(0.0649999976, 0, 0.75, 0)
+Close_3.Font = Enum.Font.SourceSansSemibold
+Close_3.Text = "V"
+Close_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close_3.TextScaled = true
+Close_3.TextSize = 14.000
+Close_3.TextWrapped = true
+
+Visual.Name = "Visual"
+Visual.Parent = Modules
+Visual.BackgroundColor3 = Color3.fromRGB(255, 108, 108)
+Visual.BorderSizePixel = 0
+Visual.Position = UDim2.new(0.49000001, 0, 0.0250000004, 0)
+Visual.Size = UDim2.new(0.150000006, 0, 0.0250000004, 0)
+Visual.Visible = false
+
+TextLabel_4.Parent = Visual
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Size = UDim2.new(0.899999976, 0, 1, 0)
+TextLabel_4.Font = Enum.Font.SourceSansSemibold
+TextLabel_4.Text = "Visual"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+Buttons_4.Name = "Buttons"
+Buttons_4.Parent = Visual
+Buttons_4.BackgroundColor3 = Color3.fromRGB(51, 51, 51)
+Buttons_4.BorderSizePixel = 0
+Buttons_4.Position = UDim2.new(0, 0, 1, 0)
+Buttons_4.Size = UDim2.new(1, 0, 20, 0)
+
+UIGridLayout_4.Parent = Buttons_4
+UIGridLayout_4.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout_4.CellPadding = UDim2.new(0, 0, 0, 0)
+UIGridLayout_4.CellSize = UDim2.new(1, 0, 0.0500000007, 0)
+
+ESP.Name = "ESP"
+ESP.Parent = Buttons_4
+ESP.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ESP.BackgroundTransparency = 1.000
+ESP.BorderSizePixel = 0
+ESP.Size = UDim2.new(1, 0, 0.0500000007, 0)
+
+Toggle_4.Name = "Toggle"
+Toggle_4.Parent = ESP
+Toggle_4.AnchorPoint = Vector2.new(0, 1)
+Toggle_4.BackgroundColor3 = Color3.fromRGB(198, 0, 198)
+Toggle_4.BorderSizePixel = 0
+Toggle_4.Position = UDim2.new(0, 0, 1, 0)
+Toggle_4.Size = UDim2.new(0.0199999996, 0, 1, 0)
+Toggle_4.Visible = false
+
+TextButton_4.Parent = ESP
+TextButton_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.BackgroundTransparency = 1.000
+TextButton_4.Position = UDim2.new(0.0199999996, 0, 0, 0)
+TextButton_4.Size = UDim2.new(0.980000019, 0, 1, 0)
+TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.Text = "ESP"
+TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.TextScaled = true
+TextButton_4.TextSize = 14.000
+TextButton_4.TextWrapped = true
+
+Tracers_2.Name = "Tracers"
+Tracers_2.Parent = Buttons_4
+Tracers_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Tracers_2.BackgroundTransparency = 1.000
+Tracers_2.BorderSizePixel = 0
+Tracers_2.Size = UDim2.new(1, 0, 0.0500000007, 0)
+
+Toggle_5.Name = "Toggle"
+Toggle_5.Parent = Tracers_2
+Toggle_5.AnchorPoint = Vector2.new(0, 1)
+Toggle_5.BackgroundColor3 = Color3.fromRGB(198, 0, 198)
+Toggle_5.BorderSizePixel = 0
+Toggle_5.Position = UDim2.new(0, 0, 1, 0)
+Toggle_5.Size = UDim2.new(0.0199999996, 0, 1, 0)
+Toggle_5.Visible = false
+
+TextButton_5.Parent = Tracers_2
+TextButton_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.BackgroundTransparency = 1.000
+TextButton_5.Position = UDim2.new(0.0199999996, 0, 0, 0)
+TextButton_5.Size = UDim2.new(0.980000019, 0, 1, 0)
+TextButton_5.Font = Enum.Font.SourceSans
+TextButton_5.Text = "Tracers"
+TextButton_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.TextScaled = true
+TextButton_5.TextSize = 14.000
+TextButton_5.TextWrapped = true
+
+Health_2.Name = "Health"
+Health_2.Parent = Buttons_4
+Health_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Health_2.BackgroundTransparency = 1.000
+Health_2.BorderSizePixel = 0
+Health_2.Size = UDim2.new(1, 0, 0.0500000007, 0)
+
+Toggle_6.Name = "Toggle"
+Toggle_6.Parent = Health_2
+Toggle_6.AnchorPoint = Vector2.new(0, 1)
+Toggle_6.BackgroundColor3 = Color3.fromRGB(198, 0, 198)
+Toggle_6.BorderSizePixel = 0
+Toggle_6.Position = UDim2.new(0, 0, 1, 0)
+Toggle_6.Size = UDim2.new(0.0199999996, 0, 1, 0)
+Toggle_6.Visible = false
+
+TextButton_6.Parent = Health_2
+TextButton_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.BackgroundTransparency = 1.000
+TextButton_6.Position = UDim2.new(0.0199999996, 0, 0, 0)
+TextButton_6.Size = UDim2.new(0.980000019, 0, 1, 0)
+TextButton_6.Font = Enum.Font.SourceSans
+TextButton_6.Text = "Health ESP"
+TextButton_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.TextScaled = true
+TextButton_6.TextSize = 14.000
+TextButton_6.TextWrapped = true
+
+TracerScreen.Name = "TracerScreen"
+TracerScreen.Parent = Buttons_4
+TracerScreen.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TracerScreen.BackgroundTransparency = 1.000
+TracerScreen.BorderSizePixel = 0
+TracerScreen.Size = UDim2.new(1, 0, 0.0500000007, 0)
+
+Toggle_7.Name = "Toggle"
+Toggle_7.Parent = TracerScreen
+Toggle_7.AnchorPoint = Vector2.new(0, 1)
+Toggle_7.BackgroundColor3 = Color3.fromRGB(198, 0, 198)
+Toggle_7.BorderSizePixel = 0
+Toggle_7.Position = UDim2.new(0, 0, 1, 0)
+Toggle_7.Size = UDim2.new(0.0199999996, 0, 1, 0)
+Toggle_7.Visible = false
+
+TextButton_7.Parent = TracerScreen
+TextButton_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_7.BackgroundTransparency = 1.000
+TextButton_7.Position = UDim2.new(0.0199999996, 0, 0, 0)
+TextButton_7.Size = UDim2.new(0.980000019, 0, 1, 0)
+TextButton_7.Font = Enum.Font.SourceSans
+TextButton_7.Text = "Trace Offscreen"
+TextButton_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_7.TextScaled = true
+TextButton_7.TextSize = 14.000
+TextButton_7.TextWrapped = true
+
+Close_4.Name = "Close"
+Close_4.Parent = Visual
+Close_4.Active = false
+Close_4.AnchorPoint = Vector2.new(1, 0.5)
+Close_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Close_4.BorderSizePixel = 0
+Close_4.Position = UDim2.new(0.975000024, 0, 0.5, 0)
+Close_4.Rotation = 180.000
+Close_4.Selectable = false
+Close_4.Size = UDim2.new(0.0649999976, 0, 0.75, 0)
+Close_4.Font = Enum.Font.SourceSansSemibold
+Close_4.Text = "V"
+Close_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close_4.TextScaled = true
+Close_4.TextSize = 14.000
+Close_4.TextWrapped = true
+
+Description.Name = "Description"
+Description.Parent = Modules
+Description.BackgroundColor3 = Color3.fromRGB(255, 108, 108)
+Description.BorderSizePixel = 0
+Description.Position = UDim2.new(0.839999974, 0, 0.699999988, 0)
+Description.Size = UDim2.new(0.150000006, 0, 0.0250000004, 0)
+Description.Visible = false
+
+TextLabel_5.Parent = Description
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Size = UDim2.new(0.899999976, 0, 1, 0)
+TextLabel_5.Font = Enum.Font.SourceSansSemibold
+TextLabel_5.Text = "Description"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
+
+Description_2.Name = "Description"
+Description_2.Parent = Description
+Description_2.BackgroundColor3 = Color3.fromRGB(51, 51, 51)
+Description_2.BorderSizePixel = 0
+Description_2.Position = UDim2.new(0, 0, 1, 0)
+Description_2.Size = UDim2.new(1, 0, 10, 0)
+
+TextLabel_6.Parent = Description_2
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_6.Font = Enum.Font.SourceSansSemibold
+TextLabel_6.Text = ""
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextWrapped = true
+
+Close_5.Name = "Close"
+Close_5.Parent = Description
+Close_5.Active = false
+Close_5.AnchorPoint = Vector2.new(1, 0.5)
+Close_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Close_5.BorderSizePixel = 0
+Close_5.Position = UDim2.new(0.975000024, 0, 0.5, 0)
+Close_5.Rotation = 180.000
+Close_5.Selectable = false
+Close_5.Size = UDim2.new(0.0649999976, 0, 0.75, 0)
+Close_5.Font = Enum.Font.SourceSansSemibold
+Close_5.Text = "V"
+Close_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close_5.TextScaled = true
+Close_5.TextSize = 14.000
+Close_5.TextWrapped = true
+
+Settings.Name = "Settings"
+Settings.Parent = MegaHackRoblox
+Settings.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Settings.BackgroundTransparency = 1.000
+Settings.Size = UDim2.new(1, 0, 1, 0)
+Settings.Visible = false
+
+FpsCounterSettings.Name = "FpsCounterSettings"
+FpsCounterSettings.Parent = Settings
+FpsCounterSettings.AnchorPoint = Vector2.new(0.5, 0.5)
+FpsCounterSettings.BackgroundColor3 = Color3.fromRGB(51, 51, 51)
+FpsCounterSettings.BorderSizePixel = 0
+FpsCounterSettings.Position = UDim2.new(0.5, 0, 0.5, 0)
+FpsCounterSettings.Size = UDim2.new(0.200000003, 0, 0.5, 0)
+FpsCounterSettings.Visible = false
+FpsCounterSettings.ZIndex = 2
+
+Scale.Name = "Scale"
+Scale.Parent = FpsCounterSettings
+Scale.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Scale.BackgroundTransparency = 0.800
+Scale.BorderSizePixel = 0
+Scale.Size = UDim2.new(1, 0, 0.0500000007, 0)
+Scale.Font = Enum.Font.SourceSans
+Scale.Text = "FPS Counter Scale: 1x"
+Scale.TextColor3 = Color3.fromRGB(255, 255, 255)
+Scale.TextScaled = true
+Scale.TextSize = 14.000
+Scale.TextWrapped = true
+
+Position.Name = "Position"
+Position.Parent = FpsCounterSettings
+Position.Active = true
+Position.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Position.BackgroundTransparency = 0.800
+Position.BorderSizePixel = 0
+Position.Position = UDim2.new(0, 0, 0.0500000007, 0)
+Position.Selectable = true
+Position.Size = UDim2.new(1, 0, 0.0500000007, 0)
+Position.Font = Enum.Font.SourceSans
+Position.Text = "FPS Position: Bottom Left"
+Position.TextColor3 = Color3.fromRGB(255, 255, 255)
+Position.TextScaled = true
+Position.TextSize = 14.000
+Position.TextWrapped = true
+
+TextButton_8.Parent = Position
+TextButton_8.AnchorPoint = Vector2.new(1, 0.5)
+TextButton_8.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_8.BorderSizePixel = 0
+TextButton_8.Position = UDim2.new(0.975000024, 0, 0.5, 0)
+TextButton_8.Size = UDim2.new(0.0450000018, 0, 0.75, 0)
+TextButton_8.Font = Enum.Font.SourceSans
+TextButton_8.Text = "V"
+TextButton_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_8.TextSize = 14.000
+
+Frame.Parent = TextButton_8
+Frame.AnchorPoint = Vector2.new(0.5, 0)
+Frame.BackgroundColor3 = Color3.fromRGB(41, 41, 41)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.5, 0, 1, 0)
+Frame.Size = UDim2.new(5, 0, 7, 0)
+Frame.Visible = false
+Frame.ZIndex = 2
+
+Frame_2.Name = "Frame"
+Frame_2.Parent = Frame
+Frame_2.AnchorPoint = Vector2.new(0.5, 0)
+Frame_2.BackgroundColor3 = Color3.fromRGB(41, 41, 41)
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(0.5, 0, 0, 0)
+Frame_2.Selectable = false
+Frame_2.Size = UDim2.new(1, 0, 1, 0)
+Frame_2.ScrollBarThickness = 6
+
+UIGridLayout_5.Parent = Frame_2
+UIGridLayout_5.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout_5.CellPadding = UDim2.new(0, 0, 0, 0)
+UIGridLayout_5.CellSize = UDim2.new(0.899999976, 0, 0.100000001, 0)
+
+BottomLeft.Name = "BottomLeft"
+BottomLeft.Parent = Frame_2
+BottomLeft.BackgroundColor3 = Color3.fromRGB(71, 71, 71)
+BottomLeft.BorderSizePixel = 0
+BottomLeft.Size = UDim2.new(0, 200, 0, 50)
+BottomLeft.Font = Enum.Font.SourceSans
+BottomLeft.Text = "BottomLeft"
+BottomLeft.TextColor3 = Color3.fromRGB(255, 255, 255)
+BottomLeft.TextScaled = true
+BottomLeft.TextSize = 14.000
+BottomLeft.TextWrapped = true
+
+Left.Name = "Left"
+Left.Parent = Frame_2
+Left.BackgroundColor3 = Color3.fromRGB(71, 71, 71)
+Left.BorderSizePixel = 0
+Left.Size = UDim2.new(0, 200, 0, 50)
+Left.Font = Enum.Font.SourceSans
+Left.Text = "Left"
+Left.TextColor3 = Color3.fromRGB(255, 255, 255)
+Left.TextScaled = true
+Left.TextSize = 14.000
+Left.TextWrapped = true
+
+TopLeft.Name = "TopLeft"
+TopLeft.Parent = Frame_2
+TopLeft.BackgroundColor3 = Color3.fromRGB(71, 71, 71)
+TopLeft.BorderSizePixel = 0
+TopLeft.Size = UDim2.new(0, 200, 0, 50)
+TopLeft.Font = Enum.Font.SourceSans
+TopLeft.Text = "TopLeft"
+TopLeft.TextColor3 = Color3.fromRGB(255, 255, 255)
+TopLeft.TextScaled = true
+TopLeft.TextSize = 14.000
+TopLeft.TextWrapped = true
+
+Top.Name = "Top"
+Top.Parent = Frame_2
+Top.BackgroundColor3 = Color3.fromRGB(71, 71, 71)
+Top.BorderSizePixel = 0
+Top.Size = UDim2.new(0, 200, 0, 50)
+Top.Font = Enum.Font.SourceSans
+Top.Text = "Top"
+Top.TextColor3 = Color3.fromRGB(255, 255, 255)
+Top.TextScaled = true
+Top.TextSize = 14.000
+Top.TextWrapped = true
+
+TopRight.Name = "TopRight"
+TopRight.Parent = Frame_2
+TopRight.BackgroundColor3 = Color3.fromRGB(71, 71, 71)
+TopRight.BorderSizePixel = 0
+TopRight.Size = UDim2.new(0, 200, 0, 50)
+TopRight.Font = Enum.Font.SourceSans
+TopRight.Text = "TopRight"
+TopRight.TextColor3 = Color3.fromRGB(255, 255, 255)
+TopRight.TextScaled = true
+TopRight.TextSize = 14.000
+TopRight.TextWrapped = true
+
+Right.Name = "Right"
+Right.Parent = Frame_2
+Right.BackgroundColor3 = Color3.fromRGB(71, 71, 71)
+Right.BorderSizePixel = 0
+Right.Size = UDim2.new(0, 200, 0, 50)
+Right.Font = Enum.Font.SourceSans
+Right.Text = "Right"
+Right.TextColor3 = Color3.fromRGB(255, 255, 255)
+Right.TextScaled = true
+Right.TextSize = 14.000
+Right.TextWrapped = true
+
+BottomRight.Name = "BottomRight"
+BottomRight.Parent = Frame_2
+BottomRight.BackgroundColor3 = Color3.fromRGB(71, 71, 71)
+BottomRight.BorderSizePixel = 0
+BottomRight.Size = UDim2.new(0, 200, 0, 50)
+BottomRight.Font = Enum.Font.SourceSans
+BottomRight.Text = "BottomRight"
+BottomRight.TextColor3 = Color3.fromRGB(255, 255, 255)
+BottomRight.TextScaled = true
+BottomRight.TextSize = 14.000
+BottomRight.TextWrapped = true
+
+Bottom.Name = "Bottom"
+Bottom.Parent = Frame_2
+Bottom.BackgroundColor3 = Color3.fromRGB(71, 71, 71)
+Bottom.BorderSizePixel = 0
+Bottom.Size = UDim2.new(0, 200, 0, 50)
+Bottom.Font = Enum.Font.SourceSans
+Bottom.Text = "Bottom"
+Bottom.TextColor3 = Color3.fromRGB(255, 255, 255)
+Bottom.TextScaled = true
+Bottom.TextSize = 14.000
+Bottom.TextWrapped = true
+
+FPSType.Name = "FPSType"
+FPSType.Parent = FpsCounterSettings
+FPSType.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+FPSType.BackgroundTransparency = 0.800
+FPSType.BorderSizePixel = 0
+FPSType.Size = UDim2.new(1, 0, 0.0500000007, 0)
+
+Toggle_8.Name = "Toggle"
+Toggle_8.Parent = FPSType
+Toggle_8.AnchorPoint = Vector2.new(0, 1)
+Toggle_8.BackgroundColor3 = Color3.fromRGB(198, 0, 198)
+Toggle_8.BorderSizePixel = 0
+Toggle_8.Position = UDim2.new(0, 0, 1, 0)
+Toggle_8.Size = UDim2.new(0.0199999996, 0, 1, 0)
+Toggle_8.Visible = false
+
+TextButton_9.Parent = FPSType
+TextButton_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_9.BackgroundTransparency = 1.000
+TextButton_9.Position = UDim2.new(0.0199999996, 0, 0, 0)
+TextButton_9.Size = UDim2.new(0.980000019, 0, 1, 0)
+TextButton_9.Font = Enum.Font.SourceSans
+TextButton_9.Text = "FPS Mode: Normal"
+TextButton_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_9.TextScaled = true
+TextButton_9.TextSize = 14.000
+TextButton_9.TextWrapped = true
+
+UIGridLayout_6.Parent = FpsCounterSettings
+UIGridLayout_6.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout_6.CellPadding = UDim2.new(0, 0, 0, 0)
+UIGridLayout_6.CellSize = UDim2.new(1, 0, 0.0500000007, 0)
+
+FPS_2.Name = "FPS"
+FPS_2.Parent = FpsCounterSettings
+FPS_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+FPS_2.BackgroundTransparency = 0.800
+FPS_2.BorderSizePixel = 0
+FPS_2.Size = UDim2.new(1, 0, 0.0500000007, 0)
+
+Toggle_9.Name = "Toggle"
+Toggle_9.Parent = FPS_2
+Toggle_9.AnchorPoint = Vector2.new(0, 1)
+Toggle_9.BackgroundColor3 = Color3.fromRGB(198, 0, 198)
+Toggle_9.BorderSizePixel = 0
+Toggle_9.Position = UDim2.new(0, 0, 1, 0)
+Toggle_9.Size = UDim2.new(0.0199999996, 0, 1, 0)
+Toggle_9.Visible = false
+
+TextButton_10.Parent = FPS_2
+TextButton_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_10.BackgroundTransparency = 1.000
+TextButton_10.Position = UDim2.new(0.0199999996, 0, 0, 0)
+TextButton_10.Size = UDim2.new(0.980000019, 0, 1, 0)
+TextButton_10.Font = Enum.Font.SourceSans
+TextButton_10.Text = "RGB Color"
+TextButton_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_10.TextScaled = true
+TextButton_10.TextSize = 14.000
+TextButton_10.TextWrapped = true
+
+Color.Name = "Color"
+Color.Parent = FpsCounterSettings
+Color.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Color.BackgroundTransparency = 0.800
+Color.BorderSizePixel = 0
+Color.Size = UDim2.new(1, 0, 0.0500000007, 0)
+
+TextLabel_7.Parent = Color
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Size = UDim2.new(0.5, 0, 1, 0)
+TextLabel_7.Font = Enum.Font.SourceSans
+TextLabel_7.Text = "FPS Color (RGB):"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextScaled = true
+TextLabel_7.TextSize = 14.000
+TextLabel_7.TextWrapped = true
+TextLabel_7.TextXAlignment = Enum.TextXAlignment.Right
+
+TextBox.Parent = TextLabel_7
+TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.BackgroundTransparency = 1.000
+TextBox.Position = UDim2.new(1, 0, 0, 0)
+TextBox.Size = UDim2.new(1, 0, 1, 0)
+TextBox.Font = Enum.Font.SourceSans
+TextBox.Text = "255, 255, 255"
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextScaled = true
+TextBox.TextSize = 14.000
+TextBox.TextWrapped = true
+TextBox.TextXAlignment = Enum.TextXAlignment.Left
+
+RGB.Name = "RGB"
+RGB.Parent = FpsCounterSettings
+RGB.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+RGB.BackgroundTransparency = 0.800
+RGB.BorderSizePixel = 0
+RGB.Size = UDim2.new(1, 0, 0.0500000007, 0)
+
+Toggle_10.Name = "Toggle"
+Toggle_10.Parent = RGB
+Toggle_10.AnchorPoint = Vector2.new(0, 1)
+Toggle_10.BackgroundColor3 = Color3.fromRGB(198, 0, 198)
+Toggle_10.BorderSizePixel = 0
+Toggle_10.Position = UDim2.new(0, 0, 1, 0)
+Toggle_10.Size = UDim2.new(0.0199999996, 0, 1, 0)
+Toggle_10.Visible = false
+
+TextButton_11.Parent = RGB
+TextButton_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_11.BackgroundTransparency = 1.000
+TextButton_11.Position = UDim2.new(0.0199999996, 0, 0, 0)
+TextButton_11.Size = UDim2.new(0.980000019, 0, 1, 0)
+TextButton_11.Font = Enum.Font.SourceSans
+TextButton_11.Text = "FPS Counter"
+TextButton_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_11.TextScaled = true
+TextButton_11.TextSize = 14.000
+TextButton_11.TextWrapped = true
+
+Customization_3.Name = "Customization"
+Customization_3.Parent = Settings
+Customization_3.AnchorPoint = Vector2.new(0.5, 0.5)
+Customization_3.BackgroundColor3 = Color3.fromRGB(51, 51, 51)
+Customization_3.BorderSizePixel = 0
+Customization_3.Position = UDim2.new(0.5, 0, 0.5, 0)
+Customization_3.Size = UDim2.new(0.200000003, 0, 0.5, 0)
+Customization_3.Visible = false
+Customization_3.ZIndex = 2
+
+HSVH.Name = "HSVH"
+HSVH.Parent = Customization_3
+HSVH.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+HSVH.BackgroundTransparency = 0.800
+HSVH.BorderSizePixel = 0
+HSVH.Size = UDim2.new(1, 0, 0.0500000007, 0)
+HSVH.Font = Enum.Font.SourceSans
+HSVH.Text = "HSV Hue Value: 1"
+HSVH.TextColor3 = Color3.fromRGB(255, 255, 255)
+HSVH.TextScaled = true
+HSVH.TextSize = 14.000
+HSVH.TextWrapped = true
+
+UIGridLayout_7.Parent = Customization_3
+UIGridLayout_7.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout_7.CellPadding = UDim2.new(0, 0, 0, 0)
+UIGridLayout_7.CellSize = UDim2.new(1, 0, 0.0500000007, 0)
+
+HSVS.Name = "HSVS"
+HSVS.Parent = Customization_3
+HSVS.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+HSVS.BackgroundTransparency = 0.800
+HSVS.BorderSizePixel = 0
+HSVS.Size = UDim2.new(1, 0, 0.0500000007, 0)
+HSVS.Font = Enum.Font.SourceSans
+HSVS.Text = "HSV Saturation Value: 0.57"
+HSVS.TextColor3 = Color3.fromRGB(255, 255, 255)
+HSVS.TextScaled = true
+HSVS.TextSize = 14.000
+HSVS.TextWrapped = true
+
+HSVV.Name = "HSVV"
+HSVV.Parent = Customization_3
+HSVV.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+HSVV.BackgroundTransparency = 0.800
+HSVV.BorderSizePixel = 0
+HSVV.Size = UDim2.new(1, 0, 0.0500000007, 0)
+HSVV.Font = Enum.Font.SourceSans
+HSVV.Text = "HSV Value Value: 1"
+HSVV.TextColor3 = Color3.fromRGB(255, 255, 255)
+HSVV.TextScaled = true
+HSVV.TextSize = 14.000
+HSVV.TextWrapped = true
+
+RGB_2.Name = "RGB"
+RGB_2.Parent = Customization_3
+RGB_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+RGB_2.BackgroundTransparency = 0.800
+RGB_2.BorderSizePixel = 0
+RGB_2.Size = UDim2.new(1, 0, 0.0500000007, 0)
+
+Toggle_11.Name = "Toggle"
+Toggle_11.Parent = RGB_2
+Toggle_11.AnchorPoint = Vector2.new(0, 1)
+Toggle_11.BackgroundColor3 = Color3.fromRGB(198, 0, 198)
+Toggle_11.BorderSizePixel = 0
+Toggle_11.Position = UDim2.new(0, 0, 1, 0)
+Toggle_11.Size = UDim2.new(0.0199999996, 0, 1, 0)
+Toggle_11.Visible = false
+
+TextButton_12.Parent = RGB_2
+TextButton_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_12.BackgroundTransparency = 1.000
+TextButton_12.Position = UDim2.new(0.0199999996, 0, 0, 0)
+TextButton_12.Size = UDim2.new(0.980000019, 0, 1, 0)
+TextButton_12.Font = Enum.Font.SourceSans
+TextButton_12.Text = "RGB"
+TextButton_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_12.TextScaled = true
+TextButton_12.TextSize = 14.000
+TextButton_12.TextWrapped = true
+
+RGBSpeed.Name = "RGBSpeed"
+RGBSpeed.Parent = Customization_3
+RGBSpeed.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+RGBSpeed.BackgroundTransparency = 0.800
+RGBSpeed.BorderSizePixel = 0
+RGBSpeed.Size = UDim2.new(1, 0, 0.0500000007, 0)
+RGBSpeed.Font = Enum.Font.SourceSans
+RGBSpeed.Text = "RGB Speed: 1"
+RGBSpeed.TextColor3 = Color3.fromRGB(255, 255, 255)
+RGBSpeed.TextScaled = true
+RGBSpeed.TextSize = 14.000
+RGBSpeed.TextWrapped = true
+
+Key.Name = "Key"
+Key.Parent = Customization_3
+Key.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Key.BackgroundTransparency = 0.800
+Key.BorderSizePixel = 0
+Key.Size = UDim2.new(1, 0, 0.0500000007, 0)
+
+TextButton_13.Parent = Key
+TextButton_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_13.BackgroundTransparency = 1.000
+TextButton_13.Position = UDim2.new(0.0199999996, 0, 0, 0)
+TextButton_13.Size = UDim2.new(0.980000019, 0, 1, 0)
+TextButton_13.Font = Enum.Font.SourceSans
+TextButton_13.Text = "Set Open Key: RightControl"
+TextButton_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_13.TextScaled = true
+TextButton_13.TextSize = 14.000
+TextButton_13.TextWrapped = true
+
+Toggle_12.Name = "Toggle"
+Toggle_12.Parent = Key
+Toggle_12.AnchorPoint = Vector2.new(0, 1)
+Toggle_12.BackgroundColor3 = Color3.fromRGB(198, 0, 198)
+Toggle_12.BorderSizePixel = 0
+Toggle_12.Position = UDim2.new(0, 0, 1, 0)
+Toggle_12.Size = UDim2.new(0.0199999996, 0, 1, 0)
+Toggle_12.Visible = false
+
+TextLabel_8.Parent = MegaHackRoblox
+TextLabel_8.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_8.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_8.Font = Enum.Font.SourceSans
+TextLabel_8.Text = "Made by Plusgaming1 on github"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextScaled = true
+TextLabel_8.TextSize = 14.000
+TextLabel_8.TextTransparency = 0.500
+TextLabel_8.TextWrapped = true
+
+-- Scripts:
+
+local function FYWIC_fake_script() -- FpsCounter.LocalScript 
+	local script = Instance.new('LocalScript', FpsCounter)
+
+	local fps = 0
+	
+	game:GetService("RunService").RenderStepped:Connect(function(dt)
+		if (_G.FpsType == "Accurate") and script.Parent.Visible == true and fps >= 5 then
+			script.Parent.Text = "FPS: ".. math.round(1 / dt)
+			fps = 0
+		end
+		fps += 1
+	end)
+	
+	while wait(1) do
+		if (_G.FpsType ~= "Accurate") and script.Parent.Visible == true then
+			script.Parent.Text = "FPS: ".. fps
+			fps = 0
+		end
+	end
+end
+coroutine.wrap(FYWIC_fake_script)()
+local function DOYFTUI_fake_script() -- MegaHackRoblox.OnLoad 
+	local script = Instance.new('LocalScript', MegaHackRoblox)
+
+	wait()
+	_G.MHR = script.Parent
+	_G.Settings = _G.MHR.Settings
+	_G.Features = _G.MHR.Features
+	_G.FpsType = "Normal"
+	_G.Modules = _G.MHR.Modules
+	
+	_G.OpenKey = Enum.KeyCode.LeftAlt
+	
+	_G.ScreenTracer = false
+	
+	_G.GuiHue = 1
+	_G.GuiSaturation = 0.5764706134796143
+	_G.GuiValue = 1
+	_G.GuiRGB = 1
+	
+	if game.Players.LocalPlayer.Character then
+		_G.WalkSpeed = game.Players.LocalPlayer.Character:FindFirstChild("Humanoid").WalkSpeed
+		if game.Players.LocalPlayer.Character:FindFirstChild("Humanoid").JumpHeight then
+			_G.JumpHeight = game.Players.LocalPlayer.Character:FindFirstChild("Humanoid").JumpHeight
+		else
+			_G.JumpPower = game.Players.LocalPlayer.Character:FindFirstChild("Humanoid").JumpPower
+		end
+	end
+end
+coroutine.wrap(DOYFTUI_fake_script)()
+local function LDYY_fake_script() -- MegaHackRoblox.Manager 
+	local script = Instance.new('LocalScript', MegaHackRoblox)
+
+	wait(.1)
+	local uis = game:GetService("UserInputService")
+	
+	local on = false
+	
+	game:GetService("UserInputService").InputBegan:Connect(function(i, chat)
+		if not chat then
+			if i.KeyCode == _G.OpenKey then
+				on = not on
+				for i, v in pairs(script.Parent.Modules:GetChildren()) do
+					v.Visible = not v.Visible
+				end
+				script.Parent.Settings.Visible = not script.Parent.Settings.Visible
+			end
+		end
+	end)
+	
+	game:GetService("RunService").RenderStepped:Connect(function()
+		if on then
+			uis.MouseBehavior = Enum.MouseBehavior.Default
+		end
+	end)
+end
+coroutine.wrap(LDYY_fake_script)()
+local function WNUTTM_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	local on = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		on = not on
+		if on then
+			script.Parent.Parent.Toggle.Visible = true
+			_G.Settings.FpsCounterSettings.Visible = true
+		else
+			script.Parent.Parent.Toggle.Visible = false
+			_G.Settings.FpsCounterSettings.Visible = false
+		end
+	end)
+end
+coroutine.wrap(WNUTTM_fake_script)()
+local function MXJZ_fake_script() -- Close.LocalScript 
+	local script = Instance.new('LocalScript', Close)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Buttons.Visible = not script.Parent.Parent.Buttons.Visible
+		script.Parent.Rotation += 180
+	end)
+end
+coroutine.wrap(MXJZ_fake_script)()
+local function LDRBM_fake_script() -- Utilities.LocalScript 
+	local script = Instance.new('LocalScript', Utilities)
+
+	local function EnableDrag(GuiObject)
+		local plr = game.Players.LocalPlayer
+		local m = plr:GetMouse()
+		if GuiObject:IsA("GuiButton") then
+			local LastX = m.X
+			local LastY = m.Y
+			local Clicked = false
+			GuiObject.MouseButton1Down:Connect(function()
+				Clicked = true
+				LastX = m.X
+				LastY = m.Y
+			end)
+			m.Move:Connect(function()
+				if Clicked then
+					if (m.X ~= LastX) or (m.Y ~= LastY) then
+						GuiObject.Position = UDim2.new(GuiObject.Position.X.Scale,GuiObject.Position.X.Offset - (LastX - m.X),GuiObject.Position.Y.Scale,GuiObject.Position.Y.Offset - (LastY - m.Y))
+						LastX = m.X
+						LastY = m.Y
+					end
+				end
+			end)
+			GuiObject.MouseButton1Up:Connect(function()
+				Clicked = false
+			end)
+		elseif GuiObject:IsA("GuiBase") then
+			local LastX = m.X
+			local LastY = m.Y
+			local Clicked = false
+			m.Button1Down:Connect(function()
+				local MinPos = GuiObject.AbsolutePosition
+				local MaxPos = Vector2.new(GuiObject.AbsolutePosition.X + (GuiObject.AbsoluteSize.X), GuiObject.AbsolutePosition.Y + (GuiObject.AbsoluteSize.Y))
+				if (m.X >= MinPos.X) and (m.Y >= MinPos.Y) and (m.X <= MaxPos.X) and (m.Y <= MaxPos.Y) then
+					Clicked = true
+					LastX = m.X
+					LastY = m.Y
+				end
+			end)
+			m.Move:Connect(function()
+				if Clicked then
+					if (m.X ~= LastX) or (m.Y ~= LastY) then
+						GuiObject.Position = UDim2.new(GuiObject.Position.X.Scale,GuiObject.Position.X.Offset - (LastX - m.X),GuiObject.Position.Y.Scale,GuiObject.Position.Y.Offset - (LastY - m.Y))
+						LastX = m.X
+						LastY = m.Y
+					end
+				end
+			end)
+			m.Button1Up:Connect(function()
+				Clicked = false
+			end)
+		end
+	end
+	
+	EnableDrag(script.Parent)
+end
+coroutine.wrap(LDRBM_fake_script)()
+local function SEFJN_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	local on = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		on = not on
+		if on then
+			script.Parent.Parent.Toggle.Visible = true
+			_G.Settings.Customization.Visible = true
+		else
+			script.Parent.Parent.Toggle.Visible = false
+			_G.Settings.Customization.Visible = false
+		end
+	end)
+end
+coroutine.wrap(SEFJN_fake_script)()
+local function BDML_fake_script() -- Close_2.LocalScript 
+	local script = Instance.new('LocalScript', Close_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Buttons.Visible = not script.Parent.Parent.Buttons.Visible
+		script.Parent.Rotation += 180
+	end)
+end
+coroutine.wrap(BDML_fake_script)()
+local function EZJN_fake_script() -- Customization.LocalScript 
+	local script = Instance.new('LocalScript', Customization)
+
+	local function EnableDrag(GuiObject)
+		local plr = game.Players.LocalPlayer
+		local m = plr:GetMouse()
+		if GuiObject:IsA("GuiButton") then
+			local LastX = m.X
+			local LastY = m.Y
+			local Clicked = false
+			GuiObject.MouseButton1Down:Connect(function()
+				Clicked = true
+				LastX = m.X
+				LastY = m.Y
+			end)
+			m.Move:Connect(function()
+				if Clicked then
+					if (m.X ~= LastX) or (m.Y ~= LastY) then
+						GuiObject.Position = UDim2.new(GuiObject.Position.X.Scale,GuiObject.Position.X.Offset - (LastX - m.X),GuiObject.Position.Y.Scale,GuiObject.Position.Y.Offset - (LastY - m.Y))
+						LastX = m.X
+						LastY = m.Y
+					end
+				end
+			end)
+			GuiObject.MouseButton1Up:Connect(function()
+				Clicked = false
+			end)
+		elseif GuiObject:IsA("GuiBase") then
+			local LastX = m.X
+			local LastY = m.Y
+			local Clicked = false
+			m.Button1Down:Connect(function()
+				local MinPos = GuiObject.AbsolutePosition
+				local MaxPos = Vector2.new(GuiObject.AbsolutePosition.X + (GuiObject.AbsoluteSize.X), GuiObject.AbsolutePosition.Y + (GuiObject.AbsoluteSize.Y))
+				if (m.X >= MinPos.X) and (m.Y >= MinPos.Y) and (m.X <= MaxPos.X) and (m.Y <= MaxPos.Y) then
+					Clicked = true
+					LastX = m.X
+					LastY = m.Y
+				end
+			end)
+			m.Move:Connect(function()
+				if Clicked then
+					if (m.X ~= LastX) or (m.Y ~= LastY) then
+						GuiObject.Position = UDim2.new(GuiObject.Position.X.Scale,GuiObject.Position.X.Offset - (LastX - m.X),GuiObject.Position.Y.Scale,GuiObject.Position.Y.Offset - (LastY - m.Y))
+						LastX = m.X
+						LastY = m.Y
+					end
+				end
+			end)
+			m.Button1Up:Connect(function()
+				Clicked = false
+			end)
+		end
+	end
+	
+	EnableDrag(script.Parent)
+end
+coroutine.wrap(EZJN_fake_script)()
+local function BHPHY_fake_script() -- Speed.LocalScript 
+	local script = Instance.new('LocalScript', Speed)
+
+	wait(0.5)
+	local plr = game.Players.LocalPlayer
+	local m = plr:GetMouse();
+	
+	local held = false;
+	
+	local scale = 16
+	if _G.WalkSpeed then
+		scale = _G.WalkSpeed
+	end
+	
+	script.Parent.Text = "WalkSpeed: ".. scale
+	
+	local lastx = 0
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		held = true
+		lastx = m.X
+	end)
+	
+	m.Button1Up:Connect(function()
+		held = false
+	end)
+	
+	script.Parent.MouseButton1Up:Connect(function()
+		held = false
+	end)
+	
+	
+	m.Move:Connect(function()
+		if held then
+			scale -= (lastx - m.X)/10
+			lastx = m.X
+			
+			script.Parent.Text = "WalkSpeed: ".. scale
+			
+			game.Players.LocalPlayer.Character:FindFirstChild("Humanoid").WalkSpeed = scale
+		end
+	end)
+	
+	game:GetService("RunService").RenderStepped:Connect(function()
+		if scale ~= _G.WalkSpeed then
+			game.Players.LocalPlayer.Character:FindFirstChild("Humanoid").WalkSpeed = scale
+		end
+	end)
+end
+coroutine.wrap(BHPHY_fake_script)()
+local function WPMIGF_fake_script() -- Jump.LocalScript 
+	local script = Instance.new('LocalScript', Jump)
+
+	wait(0.5)
+	local plr = game.Players.LocalPlayer
+	local m = plr:GetMouse();
+	
+	local held = false;
+	
+	local Type = 1
+	
+	local scale = 50
+	if _G.JumpHeight then
+		scale = _G.JumpHeight
+		Type = 1
+	else
+		scale = _G.JumpPower
+		Type = 0
+	end
+	
+	if Type == 0 then
+		script.Parent.Text = "Jump Power: ".. scale
+	else
+		script.Parent.Text = "Jump Height: ".. scale
+	end
+	
+	local lastx = 0
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		held = true
+		lastx = m.X
+	end)
+	
+	m.Button1Up:Connect(function()
+		held = false
+	end)
+	
+	script.Parent.MouseButton1Up:Connect(function()
+		held = false
+	end)
+	
+	
+	m.Move:Connect(function()
+		if held then
+			scale -= (lastx - m.X)/10
+			lastx = m.X
+			
+			if Type == 0 then
+				script.Parent.Text = "Jump Power: ".. scale
+			else
+				script.Parent.Text = "Jump Height: ".. scale
+			end
+			
+			if Type == 1 then
+				game.Players.LocalPlayer.Character:FindFirstChild("Humanoid").JumpHeight = scale
+			else
+				game.Players.LocalPlayer.Character:FindFirstChild("Humanoid").JumpPower = scale
+			end
+		end
+	end)
+	
+	game:GetService("RunService").RenderStepped:Connect(function()
+		if Type == 1 then
+			if scale ~= _G.JumpHeight then
+				game.Players.LocalPlayer.Character:FindFirstChild("Humanoid").JumpHeight = scale
+			end
+		else
+			if scale ~= _G.JumpPower then
+				game.Players.LocalPlayer.Character:FindFirstChild("Humanoid").JumpPower = scale
+			end
+		end
+		
+	end)
+end
+coroutine.wrap(WPMIGF_fake_script)()
+local function EWJI_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	local on = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		on = not on
+		if on then
+			script.Parent.Parent.Toggle.Visible = true
+		else
+			script.Parent.Parent.Toggle.Visible = false
+		end
+	end)
+	
+	local last = {}
+	
+	game:GetService("RunService").RenderStepped:Connect(function()
+		for i, v in pairs(last) do
+			v.CanCollide = true
+		end
+		last = {}
+		if on then
+			for i, v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+				if v:IsA("BasePart") then
+					local temp = v.Touched:Connect(function()
+						
+					end)
+					local t = v:GetTouchingParts()
+					temp:Disconnect()
+					for _, a in pairs(t) do
+						if not a:IsDescendantOf(game.Players.LocalPlayer.Character) then
+							if a:IsA("BasePart") then
+								local ray = Ray.new(game.Players.LocalPlayer.Character.HumanoidRootPart.Position, Vector3.new(0, -game.Players.LocalPlayer.Character.Humanoid.HipHeight*2, 0))
+								local ignore = RaycastParams.new()
+								ignore.FilterDescendantsInstances = {game.Players.LocalPlayer.Character}
+								ignore.FilterType = Enum.RaycastFilterType.Blacklist
+								local result = workspace:Raycast(ray.Origin, ray.Direction, ignore)
+								if result then
+									if result.Instance ~= a then
+										if (a.CanCollide == true) and (a.Position.Y + a.Size.Y/2 > game.Players.LocalPlayer.Character.HumanoidRootPart.Position.Y) then
+											table.insert(last, a)
+											a.CanCollide = false
+										end
+									end
+								else
+									if (a.CanCollide == true) and (a.Position.Y + a.Size.Y/2 > game.Players.LocalPlayer.Character.HumanoidRootPart.Position.Y) then
+										table.insert(last, a)
+										a.CanCollide = false
+									end
+								end
+							end
+						end
+					end
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(EWJI_fake_script)()
+local function RBXRTKT_fake_script() -- Close_3.LocalScript 
+	local script = Instance.new('LocalScript', Close_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Buttons.Visible = not script.Parent.Parent.Buttons.Visible
+		script.Parent.Rotation += 180
+	end)
+end
+coroutine.wrap(RBXRTKT_fake_script)()
+local function BWHZ_fake_script() -- Player.LocalScript 
+	local script = Instance.new('LocalScript', Player)
+
+	local function EnableDrag(GuiObject)
+		local plr = game.Players.LocalPlayer
+		local m = plr:GetMouse()
+		if GuiObject:IsA("GuiButton") then
+			local LastX = m.X
+			local LastY = m.Y
+			local Clicked = false
+			GuiObject.MouseButton1Down:Connect(function()
+				Clicked = true
+				LastX = m.X
+				LastY = m.Y
+			end)
+			m.Move:Connect(function()
+				if Clicked then
+					if (m.X ~= LastX) or (m.Y ~= LastY) then
+						GuiObject.Position = UDim2.new(GuiObject.Position.X.Scale,GuiObject.Position.X.Offset - (LastX - m.X),GuiObject.Position.Y.Scale,GuiObject.Position.Y.Offset - (LastY - m.Y))
+						LastX = m.X
+						LastY = m.Y
+					end
+				end
+			end)
+			GuiObject.MouseButton1Up:Connect(function()
+				Clicked = false
+			end)
+		elseif GuiObject:IsA("GuiBase") then
+			local LastX = m.X
+			local LastY = m.Y
+			local Clicked = false
+			m.Button1Down:Connect(function()
+				local MinPos = GuiObject.AbsolutePosition
+				local MaxPos = Vector2.new(GuiObject.AbsolutePosition.X + (GuiObject.AbsoluteSize.X), GuiObject.AbsolutePosition.Y + (GuiObject.AbsoluteSize.Y))
+				if (m.X >= MinPos.X) and (m.Y >= MinPos.Y) and (m.X <= MaxPos.X) and (m.Y <= MaxPos.Y) then
+					Clicked = true
+					LastX = m.X
+					LastY = m.Y
+				end
+			end)
+			m.Move:Connect(function()
+				if Clicked then
+					if (m.X ~= LastX) or (m.Y ~= LastY) then
+						GuiObject.Position = UDim2.new(GuiObject.Position.X.Scale,GuiObject.Position.X.Offset - (LastX - m.X),GuiObject.Position.Y.Scale,GuiObject.Position.Y.Offset - (LastY - m.Y))
+						LastX = m.X
+						LastY = m.Y
+					end
+				end
+			end)
+			m.Button1Up:Connect(function()
+				Clicked = false
+			end)
+		end
+	end
+	
+	EnableDrag(script.Parent)
+end
+coroutine.wrap(BWHZ_fake_script)()
+local function MYTLKR_fake_script() -- TextButton_4.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_4)
+
+	local on = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		on = not on
+		if on then
+			script.Parent.Parent.Toggle.Visible = true
+		else
+			script.Parent.Parent.Toggle.Visible = false
+		end
+	end)
+	
+	local players = {}
+	
+	local esp = {}
+	
+	local function createesp(part, color)
+		local e = Instance.new("BoxHandleAdornment", part)
+		e.Adornee = part
+		e.Size = part.Size
+		e.Transparency = 0.5
+		e.Visible = true
+		e.Color3 = color
+		e.AlwaysOnTop = true
+		e.Visible = true
+		e.ZIndex = 1
+		table.insert(esp, e)
+	end
+	
+	local function espe(char, color)
+		for i, v in pairs(char:GetChildren()) do
+			if v:IsA("BasePart") then
+				createesp(v, color)
+			end
+		end
+		table.insert(players, char)
+	end
+	
+	game:GetService("RunService").RenderStepped:Connect(function()
+		if on then
+			for i, v in pairs(game.Players:GetChildren()) do
+				if v ~= game.Players.LocalPlayer then
+					local canuse = true
+					for i, v_ in pairs(players) do
+						if v_ == v.Character then
+							canuse = false
+						end
+					end
+					if canuse and v:IsA("Player") then
+						espe(v.Character, v.TeamColor.Color)
+						table.insert(players, v)
+					end
+				end
+			end
+		else
+			for i, v in pairs(esp) do
+				v:Destroy()
+			end
+			players = {}
+		end
+	end)
+end
+coroutine.wrap(MYTLKR_fake_script)()
+local function YSCJH_fake_script() -- TextButton_5.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_5)
+
+	local on = false
+	
+	local m = game.Players.LocalPlayer:GetMouse()
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		on = not on
+		if on then
+			script.Parent.Parent.Toggle.Visible = true
+		else
+			script.Parent.Parent.Toggle.Visible = false
+		end
+	end)
+	
+	local tracers = {}
+	
+	local function trace(position, color)
+		local cam = game.Workspace.CurrentCamera
+		local pos, visible = cam:WorldToScreenPoint(position)
+		
+		if visible == not _G.ScreenTracer then
+			local e = Instance.new("Frame", _G.Features.Tracers)
+			e.Position = UDim2.new(0, m.X, 0, m.Y)
+			e.AnchorPoint = Vector2.new(0.5, 0.5)
+			
+			local rotation = math.deg(math.atan2(pos.Y - m.Y, pos.X - m.X))
+			e.Rotation = rotation - 90
+			local size = (e.AbsolutePosition - Vector2.new(pos.X, pos.Y)).Magnitude
+			e.Size = UDim2.new(0, 0, 0, size)
+			e.Position = e.Position:Lerp(UDim2.new(0, pos.X, 0, pos.Y), 0.5)
+			e.BorderColor3 = color
+			table.insert(tracers, e)
+		end
+	end
+	
+	game:GetService("RunService").RenderStepped:Connect(function()
+		for i, v in pairs(tracers) do
+			v:Destroy()
+		end
+		if on then
+			for i, v in pairs(game.Players:GetChildren()) do
+				if v.Character and v.Character.HumanoidRootPart then
+					trace(v.Character.HumanoidRootPart.Position, v.TeamColor.Color)
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(YSCJH_fake_script)()
+local function BIKDUG_fake_script() -- TextButton_6.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_6)
+
+	local on = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		on = not on
+		if on then
+			script.Parent.Parent.Toggle.Visible = true
+		else
+			script.Parent.Parent.Toggle.Visible = false
+		end
+	end)
+	
+	local tracers = {}
+	
+	local function trace(plr, position, color)
+		local cam = game.Workspace.CurrentCamera
+		local pos, visible = cam:WorldToScreenPoint(position)
+		
+		if visible then
+			local e = Instance.new("TextLabel", _G.Features.Health)
+			e.Position = UDim2.new(0, pos.X, 0, pos.Y)
+			e.Text = "Name: ".. plr.Name.. ", Health: ".. plr.Character.Humanoid.Health.. ", Distance: ".. (game.Players.LocalPlayer.Character.HumanoidRootPart.Position - position).Magnitude 
+			e.AnchorPoint = Vector2.new(0.5, 0.5)
+			e.TextScaled = true
+			local pos2 = cam:WorldToScreenPoint(Vector3.new(position.X, position.Y + plr.Character.HumanoidRootPart.Size.Y/2, position.Z))
+			local pos3 = cam:WorldToScreenPoint(Vector3.new(position.X, position.Y - plr.Character.HumanoidRootPart.Size.Y/2, position.Z))
+			e.Size = UDim2.new(1, 0, 0, (Vector2.new(pos2.X, pos2.Y) - Vector2.new(pos3.X, pos3.Y)).Magnitude)
+			e.BackgroundTransparency = 1
+			e.TextColor3 = color
+			table.insert(tracers, e)
+		end
+	end
+	
+	game:GetService("RunService").RenderStepped:Connect(function()
+		for i, v in pairs(tracers) do
+			v:Destroy()
+		end
+		if on then
+			for i, v in pairs(game.Players:GetChildren()) do
+				if v.Character and v.Character.HumanoidRootPart and v ~= game.Players.LocalPlayer then
+					trace(v, v.Character.HumanoidRootPart.Position, v.TeamColor.Color)
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(BIKDUG_fake_script)()
+local function VICO_fake_script() -- TextButton_7.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_7)
+
+	local on = false
+	
+	local m = game.Players.LocalPlayer:GetMouse()
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		on = not on
+		if on then
+			script.Parent.Parent.Toggle.Visible = true
+		else
+			script.Parent.Parent.Toggle.Visible = false
+		end
+		_G.ScreenTracer = on
+	end)
+end
+coroutine.wrap(VICO_fake_script)()
+local function EEJX_fake_script() -- Close_4.LocalScript 
+	local script = Instance.new('LocalScript', Close_4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Buttons.Visible = not script.Parent.Parent.Buttons.Visible
+		script.Parent.Rotation += 180
+	end)
+end
+coroutine.wrap(EEJX_fake_script)()
+local function QPVYKP_fake_script() -- Visual.LocalScript 
+	local script = Instance.new('LocalScript', Visual)
+
+	local function EnableDrag(GuiObject)
+		local plr = game.Players.LocalPlayer
+		local m = plr:GetMouse()
+		if GuiObject:IsA("GuiButton") then
+			local LastX = m.X
+			local LastY = m.Y
+			local Clicked = false
+			GuiObject.MouseButton1Down:Connect(function()
+				Clicked = true
+				LastX = m.X
+				LastY = m.Y
+			end)
+			m.Move:Connect(function()
+				if Clicked then
+					if (m.X ~= LastX) or (m.Y ~= LastY) then
+						GuiObject.Position = UDim2.new(GuiObject.Position.X.Scale,GuiObject.Position.X.Offset - (LastX - m.X),GuiObject.Position.Y.Scale,GuiObject.Position.Y.Offset - (LastY - m.Y))
+						LastX = m.X
+						LastY = m.Y
+					end
+				end
+			end)
+			GuiObject.MouseButton1Up:Connect(function()
+				Clicked = false
+			end)
+		elseif GuiObject:IsA("GuiBase") then
+			local LastX = m.X
+			local LastY = m.Y
+			local Clicked = false
+			m.Button1Down:Connect(function()
+				local MinPos = GuiObject.AbsolutePosition
+				local MaxPos = Vector2.new(GuiObject.AbsolutePosition.X + (GuiObject.AbsoluteSize.X), GuiObject.AbsolutePosition.Y + (GuiObject.AbsoluteSize.Y))
+				if (m.X >= MinPos.X) and (m.Y >= MinPos.Y) and (m.X <= MaxPos.X) and (m.Y <= MaxPos.Y) then
+					Clicked = true
+					LastX = m.X
+					LastY = m.Y
+				end
+			end)
+			m.Move:Connect(function()
+				if Clicked then
+					if (m.X ~= LastX) or (m.Y ~= LastY) then
+						GuiObject.Position = UDim2.new(GuiObject.Position.X.Scale,GuiObject.Position.X.Offset - (LastX - m.X),GuiObject.Position.Y.Scale,GuiObject.Position.Y.Offset - (LastY - m.Y))
+						LastX = m.X
+						LastY = m.Y
+					end
+				end
+			end)
+			m.Button1Up:Connect(function()
+				Clicked = false
+			end)
+		end
+	end
+	
+	EnableDrag(script.Parent)
+end
+coroutine.wrap(QPVYKP_fake_script)()
+local function KKZWO_fake_script() -- TextLabel_6.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_6)
+
+	local m = game.Players.LocalPlayer:GetMouse()
+	
+	m.Move:Connect(function()
+		script.Parent.Text = ""
+		for i, v in pairs(_G.Modules:GetChildren()) do
+			if v:FindFirstChild("Buttons") then
+				for _i, _v in pairs(v.Buttons:GetChildren()) do
+					if _v:IsA("GuiBase") then
+						local p1 = _v.AbsolutePosition
+						local p2 = p1 + _v.AbsoluteSize
+						if (m.X > p1.X) and (m.X < p2.X) and (m.Y > p1.Y) and (m.Y < p2.Y) then
+							if _v:FindFirstChild("Description") then
+								script.Parent.Text = _v.Description.Value
+							end
+						end
+					end
+				end
+			end
+		end
+		for i, v in pairs(_G.Settings:GetChildren()) do
+			if v.Visible == true then
+				for _i, _v in pairs(v:GetChildren()) do
+					if _v:IsA("GuiBase") then
+						local p1 = _v.AbsolutePosition
+						local p2 = p1 + _v.AbsoluteSize
+						if (m.X > p1.X) and (m.X < p2.X) and (m.Y > p1.Y) and (m.Y < p2.Y) then
+							if _v:FindFirstChild("Description") then
+								script.Parent.Text = _v.Description.Value
+							end
+						end
+					end
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(KKZWO_fake_script)()
+local function YUIBO_fake_script() -- Close_5.LocalScript 
+	local script = Instance.new('LocalScript', Close_5)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Description.Visible = not script.Parent.Parent.Buttons.Visible
+		script.Parent.Rotation += 180
+	end)
+end
+coroutine.wrap(YUIBO_fake_script)()
+local function WJHK_fake_script() -- Description.LocalScript 
+	local script = Instance.new('LocalScript', Description)
+
+	local function EnableDrag(GuiObject)
+		local plr = game.Players.LocalPlayer
+		local m = plr:GetMouse()
+		if GuiObject:IsA("GuiButton") then
+			local LastX = m.X
+			local LastY = m.Y
+			local Clicked = false
+			GuiObject.MouseButton1Down:Connect(function()
+				Clicked = true
+				LastX = m.X
+				LastY = m.Y
+			end)
+			m.Move:Connect(function()
+				if Clicked then
+					if (m.X ~= LastX) or (m.Y ~= LastY) then
+						GuiObject.Position = UDim2.new(GuiObject.Position.X.Scale,GuiObject.Position.X.Offset - (LastX - m.X),GuiObject.Position.Y.Scale,GuiObject.Position.Y.Offset - (LastY - m.Y))
+						LastX = m.X
+						LastY = m.Y
+					end
+				end
+			end)
+			GuiObject.MouseButton1Up:Connect(function()
+				Clicked = false
+			end)
+		elseif GuiObject:IsA("GuiBase") then
+			local LastX = m.X
+			local LastY = m.Y
+			local Clicked = false
+			m.Button1Down:Connect(function()
+				local MinPos = GuiObject.AbsolutePosition
+				local MaxPos = Vector2.new(GuiObject.AbsolutePosition.X + (GuiObject.AbsoluteSize.X), GuiObject.AbsolutePosition.Y + (GuiObject.AbsoluteSize.Y))
+				if (m.X >= MinPos.X) and (m.Y >= MinPos.Y) and (m.X <= MaxPos.X) and (m.Y <= MaxPos.Y) then
+					Clicked = true
+					LastX = m.X
+					LastY = m.Y
+				end
+			end)
+			m.Move:Connect(function()
+				if Clicked then
+					if (m.X ~= LastX) or (m.Y ~= LastY) then
+						GuiObject.Position = UDim2.new(GuiObject.Position.X.Scale,GuiObject.Position.X.Offset - (LastX - m.X),GuiObject.Position.Y.Scale,GuiObject.Position.Y.Offset - (LastY - m.Y))
+						LastX = m.X
+						LastY = m.Y
+					end
+				end
+			end)
+			m.Button1Up:Connect(function()
+				Clicked = false
+			end)
+		end
+	end
+	
+	EnableDrag(script.Parent)
+end
+coroutine.wrap(WJHK_fake_script)()
+local function CZHNR_fake_script() -- Scale.LocalScript 
+	local script = Instance.new('LocalScript', Scale)
+
+	local function map(value, istart, istop, ostart, ostop)
+		return ostart + (ostop - ostart) * ((value - istart) / (istop - istart));
+	end
+	
+	local plr = game.Players.LocalPlayer
+	local m = plr:GetMouse();
+	
+	local held = false;
+	
+	local scale = 1
+	
+	local lastx = 0
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		held = true
+		lastx = m.X
+	end)
+	
+	m.Button1Up:Connect(function()
+		held = false
+	end)
+	
+	script.Parent.MouseButton1Up:Connect(function()
+		held = false
+	end)
+	
+	
+	m.Move:Connect(function()
+		if held then
+			scale -= (lastx - m.X)/100
+			lastx = m.X
+			script.Parent.Text = "FPS Counter Scale: ".. scale.. "x"
+			_G.Features.FpsCounter.Size = UDim2.new(0.15 * scale, 0, 0.1 * scale, 0)
+		end
+	end)
+end
+coroutine.wrap(CZHNR_fake_script)()
+local function AMCAW_fake_script() -- BottomLeft.LocalScript 
+	local script = Instance.new('LocalScript', BottomLeft)
+
+	local Type = "Bottom Left"
+	local AnchorPoint = Vector2.new(0, 1)
+	local Position = Vector2.new(0, 1)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent.Parent.Text = "FPS Position: ".. Type
+		_G.Features.FpsCounter.Position = UDim2.new(Position.X, 0, Position.Y, 0)
+		_G.Features.FpsCounter.AnchorPoint = AnchorPoint
+	end)
+end
+coroutine.wrap(AMCAW_fake_script)()
+local function EPQFOY_fake_script() -- Left.LocalScript 
+	local script = Instance.new('LocalScript', Left)
+
+	local Type = "Left"
+	local AnchorPoint = Vector2.new(0, 0.5)
+	local Position = Vector2.new(0, 0.5)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent.Parent.Text = "FPS Position: ".. Type
+		_G.Features.FpsCounter.Position = UDim2.new(Position.X, 0, Position.Y, 0)
+		_G.Features.FpsCounter.AnchorPoint = AnchorPoint
+	end)
+end
+coroutine.wrap(EPQFOY_fake_script)()
+local function ZQPZOO_fake_script() -- TopLeft.LocalScript 
+	local script = Instance.new('LocalScript', TopLeft)
+
+	local Type = "Top Left"
+	local AnchorPoint = Vector2.new(0, 0)
+	local Position = Vector2.new(0, 0)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent.Parent.Text = "FPS Position: ".. Type
+		_G.Features.FpsCounter.Position = UDim2.new(Position.X, 0, Position.Y, 0)
+		_G.Features.FpsCounter.AnchorPoint = AnchorPoint
+	end)
+end
+coroutine.wrap(ZQPZOO_fake_script)()
+local function JCRVDOA_fake_script() -- Top.LocalScript 
+	local script = Instance.new('LocalScript', Top)
+
+	local Type = "Top"
+	local AnchorPoint = Vector2.new(0.5, 0)
+	local Position = Vector2.new(0.5, 0)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent.Parent.Text = "FPS Position: ".. Type
+		_G.Features.FpsCounter.Position = UDim2.new(Position.X, 0, Position.Y, 0)
+		_G.Features.FpsCounter.AnchorPoint = AnchorPoint
+	end)
+end
+coroutine.wrap(JCRVDOA_fake_script)()
+local function ABVSDQ_fake_script() -- TopRight.LocalScript 
+	local script = Instance.new('LocalScript', TopRight)
+
+	local Type = "Top Right"
+	local AnchorPoint = Vector2.new(1, 0)
+	local Position = Vector2.new(1, 0)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent.Parent.Text = "FPS Position: ".. Type
+		_G.Features.FpsCounter.Position = UDim2.new(Position.X, 0, Position.Y, 0)
+		_G.Features.FpsCounter.AnchorPoint = AnchorPoint
+	end)
+end
+coroutine.wrap(ABVSDQ_fake_script)()
+local function EIOHGFD_fake_script() -- Right.LocalScript 
+	local script = Instance.new('LocalScript', Right)
+
+	local Type = "Right"
+	local AnchorPoint = Vector2.new(1, 0.5)
+	local Position = Vector2.new(1, 0.5)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent.Parent.Text = "FPS Position: ".. Type
+		_G.Features.FpsCounter.Position = UDim2.new(Position.X, 0, Position.Y, 0)
+		_G.Features.FpsCounter.AnchorPoint = AnchorPoint
+	end)
+end
+coroutine.wrap(EIOHGFD_fake_script)()
+local function IOUT_fake_script() -- BottomRight.LocalScript 
+	local script = Instance.new('LocalScript', BottomRight)
+
+	local Type = "Bottom Right"
+	local AnchorPoint = Vector2.new(1, 1)
+	local Position = Vector2.new(1, 1)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent.Parent.Text = "FPS Position: ".. Type
+		_G.Features.FpsCounter.Position = UDim2.new(Position.X, 0, Position.Y, 0)
+		_G.Features.FpsCounter.AnchorPoint = AnchorPoint
+	end)
+end
+coroutine.wrap(IOUT_fake_script)()
+local function KFTF_fake_script() -- Bottom.LocalScript 
+	local script = Instance.new('LocalScript', Bottom)
+
+	local Type = "Bottom"
+	local AnchorPoint = Vector2.new(0.5, 1)
+	local Position = Vector2.new(0.5, 1)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent.Parent.Text = "FPS Position: ".. Type
+		_G.Features.FpsCounter.Position = UDim2.new(Position.X, 0, Position.Y, 0)
+		_G.Features.FpsCounter.AnchorPoint = AnchorPoint
+	end)
+end
+coroutine.wrap(KFTF_fake_script)()
+local function OFNW_fake_script() -- TextButton_8.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_8)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Frame.Visible = not script.Parent.Frame.Visible
+		if script.Parent.Frame.Visible == true then
+			script.Parent.Text = "^"
+		else
+			script.Parent.Text = "v"
+		end
+	end)
+end
+coroutine.wrap(OFNW_fake_script)()
+local function FGOO_fake_script() -- TextButton_9.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_9)
+
+	local on = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		on = not on
+		if on then
+			script.Parent.Parent.Toggle.Visible = true
+			script.Parent.Text = "FPS Mode: Accurate"
+			_G.FpsType = "Accurate"
+		else
+			script.Parent.Parent.Toggle.Visible = false
+			script.Parent.Text = "FPS Mode: Normal"
+			_G.FpsType = "Normal"
+		end
+	end)
+end
+coroutine.wrap(FGOO_fake_script)()
+local function LYCWCTY_fake_script() -- TextButton_10.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_10)
+
+	local on = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		on = not on
+		if on then
+			script.Parent.Parent.Toggle.Visible = true
+		else
+			script.Parent.Parent.Toggle.Visible = false
+		end
+	end)
+	
+	local rgb = 0
+	
+	game:GetService("RunService").RenderStepped:Connect(function(dt)
+		if on then
+			_G.Features.FpsCounter.TextColor3 = Color3.fromHSV(rgb, 1, 1)
+			rgb += 0.5 * dt
+			if rgb >= 1 then
+				rgb = 0
+			end
+		end
+	end)
+end
+coroutine.wrap(LYCWCTY_fake_script)()
+local function JNKI_fake_script() -- TextBox.LocalScript 
+	local script = Instance.new('LocalScript', TextBox)
+
+	script.Parent.Changed:Connect(function(Type)
+		if Type == "Text" then
+			local splitt = string.split(script.Parent.Text, ",")
+			_G.Features.FpsCounter.TextColor3 = Color3.fromRGB(tonumber(splitt[1]), tonumber(splitt[2]), tonumber(splitt[3]))
+		end
+	end)
+end
+coroutine.wrap(JNKI_fake_script)()
+local function PCOLJ_fake_script() -- TextButton_11.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_11)
+
+	local on = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		on = not on
+		if on then
+			script.Parent.Parent.Toggle.Visible = true
+			_G.Features.FpsCounter.Visible = true
+		else
+			script.Parent.Parent.Toggle.Visible = false
+			_G.Features.FpsCounter.Visible = false
+		end
+	end)
+end
+coroutine.wrap(PCOLJ_fake_script)()
+local function NEXUI_fake_script() -- HSVH.LocalScript 
+	local script = Instance.new('LocalScript', HSVH)
+
+	local plr = game.Players.LocalPlayer
+	local m = plr:GetMouse();
+	
+	local held = false;
+	
+	local scale = 1
+	
+	local lastx = 0
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		held = true
+		lastx = m.X
+	end)
+	
+	m.Button1Up:Connect(function()
+		held = false
+	end)
+	
+	script.Parent.MouseButton1Up:Connect(function()
+		held = false
+	end)
+	
+	
+	m.Move:Connect(function()
+		if held then
+			scale -= (lastx - m.X)/100
+			lastx = m.X
+			if scale > 1 then
+				scale -= 1
+			end
+			if scale < 0 then
+				scale += 1
+			end
+			
+			script.Parent.Text = "HSV Hue Value: ".. scale
+			
+			
+			_G.GuiHue = scale
+			for i, v in pairs(_G.Modules:GetChildren()) do
+				v.BackgroundColor3 = Color3.fromHSV(_G.GuiHue, _G.GuiSaturation, _G.GuiValue)
+			end
+		end
+	end)
+end
+coroutine.wrap(NEXUI_fake_script)()
+local function UHJSM_fake_script() -- HSVS.LocalScript 
+	local script = Instance.new('LocalScript', HSVS)
+
+	local plr = game.Players.LocalPlayer
+	local m = plr:GetMouse();
+	
+	local held = false;
+	
+	local scale = 0.57
+	
+	local lastx = 0
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		held = true
+		lastx = m.X
+	end)
+	
+	m.Button1Up:Connect(function()
+		held = false
+	end)
+	
+	script.Parent.MouseButton1Up:Connect(function()
+		held = false
+	end)
+	
+	
+	m.Move:Connect(function()
+		if held then
+			scale -= (lastx - m.X)/100
+			lastx = m.X
+			if scale > 1 then
+				scale -= 1
+			end
+			if scale < 0 then
+				scale += 1
+			end
+			script.Parent.Text = "HSV Saturation Value: ".. scale
+			_G.GuiSaturation = scale
+			for i, v in pairs(_G.Modules:GetChildren()) do
+				v.BackgroundColor3 = Color3.fromHSV(_G.GuiHue, _G.GuiSaturation, _G.GuiValue)
+			end
+		end
+	end)
+end
+coroutine.wrap(UHJSM_fake_script)()
+local function YLET_fake_script() -- HSVV.LocalScript 
+	local script = Instance.new('LocalScript', HSVV)
+
+	local plr = game.Players.LocalPlayer
+	local m = plr:GetMouse();
+	
+	local held = false;
+	
+	local scale = 1
+	
+	local lastx = 0
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		held = true
+		lastx = m.X
+	end)
+	
+	m.Button1Up:Connect(function()
+		held = false
+	end)
+	
+	script.Parent.MouseButton1Up:Connect(function()
+		held = false
+	end)
+	
+	
+	m.Move:Connect(function()
+		if held then
+			scale -= (lastx - m.X)/100
+			lastx = m.X
+			if scale > 1 then
+				scale -= 1
+			end
+			if scale < 0 then
+				scale += 1
+			end
+			script.Parent.Text = "HSV Value Value: ".. scale
+			_G.GuiValue = scale
+			for i, v in pairs(_G.Modules:GetChildren()) do
+				v.BackgroundColor3 = Color3.fromHSV(_G.GuiHue, _G.GuiSaturation, _G.GuiValue)
+			end
+		end
+	end)
+end
+coroutine.wrap(YLET_fake_script)()
+local function OFZM_fake_script() -- TextButton_12.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_12)
+
+	local on = false
+	
+	local e = 0
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		on = not on
+		if on then
+			script.Parent.Parent.Toggle.Visible = true
+			e = _G.GuiHue
+		else
+			script.Parent.Parent.Toggle.Visible = false
+		end
+	end)
+	
+	
+	
+	game:GetService("RunService").RenderStepped:Connect(function(dt)
+		if on then
+			for i, v in pairs(_G.Modules:GetChildren()) do
+				v.BackgroundColor3 = Color3.fromHSV(e, _G.GuiSaturation, _G.GuiValue)
+			end
+			e += _G.GuiRGB * dt
+			_G.GuiHue = e
+			script.Parent.Parent.Parent.HSVH.Text = "HSV Hue Value: ".. e
+			if e > 1 then
+				e = e - 1
+			end
+		end
+	end)
+end
+coroutine.wrap(OFZM_fake_script)()
+local function ENBBR_fake_script() -- RGBSpeed.LocalScript 
+	local script = Instance.new('LocalScript', RGBSpeed)
+
+	local plr = game.Players.LocalPlayer
+	local m = plr:GetMouse();
+	
+	local held = false;
+	
+	local scale = 1
+	
+	local lastx = 0
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		held = true
+		lastx = m.X
+	end)
+	
+	m.Button1Up:Connect(function()
+		held = false
+	end)
+	
+	script.Parent.MouseButton1Up:Connect(function()
+		held = false
+	end)
+	
+	
+	m.Move:Connect(function()
+		if held then
+			scale -= (lastx - m.X)/100
+			lastx = m.X
+			
+			script.Parent.Text = "RGB Speed: ".. scale
+			_G.GuiRGB = scale
+		end
+	end)
+end
+coroutine.wrap(ENBBR_fake_script)()
+local function BQELPSF_fake_script() -- TextButton_13.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_13)
+
+	local on = false
+	
+	local e = 0
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		on = not on
+		if on then
+			script.Parent.Parent.Toggle.Visible = true
+		else
+			script.Parent.Parent.Toggle.Visible = false
+		end
+	end)
+	
+	game:GetService("UserInputService").InputBegan:Connect(function(i, chat)
+		if not chat then
+			if on then
+				_G.OpenKey = i.KeyCode
+				script.Parent.Parent.Toggle.Visible = false
+				on = false
+				script.Parent.Text = "Set Open Key: ".. tostring(i.KeyCode)
+			end
+		end
+	end)
+end
+coroutine.wrap(BQELPSF_fake_script)()
+local function MCEOCV_fake_script() -- TextLabel_8.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_8)
+
+	wait(2)
+	local function lerp(a, b, c)
+		return a + (b - a) * c
+	end
+	for i = 0,1,0.05 do
+		wait(0.05)
+		script.Parent.Size = UDim2.new(lerp(1, 0, i), 0, lerp(1, 0, i), 0)
+	end
+	script.Parent:Destroy()
+end
+coroutine.wrap(MCEOCV_fake_script)()
